@@ -2,12 +2,19 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public abstract class Tabuleiro {
-    private List<Deck> decks; //{ DECK1 , DECK2 }   DECK2
+
+    private List<Deck> decks;
+
     private List<CartasTabuleiro> cartasTabuleiros;
+
     private Integer limitDecks;
+
     private Integer limitCartasNoDeck;
+
     private Integer limitCartasAtaque;
+
     private Integer limitCartasAtaqueEspecial;
+
 
     public Tabuleiro(Integer limitDecks, Integer limitCartasNoDeck, Integer limitCartasAtaque, Integer limitCartasAtaqueEspecial) {
         this.limitDecks = limitDecks;
@@ -23,7 +30,6 @@ public abstract class Tabuleiro {
     public List<CartasTabuleiro> getCartasTabuleiros() {
         return cartasTabuleiros;
     }
-
 
     public Integer getLimitCartasAtaque() {
         return limitCartasAtaque;
@@ -44,6 +50,7 @@ public abstract class Tabuleiro {
     }
 
     public abstract CartasTabuleiro getCartaTabuleiroFromDeck(Deck deck);
+
     public abstract Boolean verificarCarta(Carta carta, Deck deck);
 
     public Deck verificaVitoria(){

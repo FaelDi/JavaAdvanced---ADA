@@ -4,7 +4,6 @@ public abstract class Carta {
     private String tipo;
     private Integer custo;
 
-
     public Carta(String nome, String tipo, Integer custo) {
         this.nome = nome;
         this.tipo = tipo;
