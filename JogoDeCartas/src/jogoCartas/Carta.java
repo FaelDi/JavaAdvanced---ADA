@@ -1,3 +1,4 @@
+package jogoCartas;
 
 public abstract class Carta {
     private String nome;

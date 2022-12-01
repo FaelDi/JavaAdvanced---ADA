@@ -1,3 +1,4 @@
+package jogoCartas;
 
 public class TabuleiroParty extends Tabuleiro {
 

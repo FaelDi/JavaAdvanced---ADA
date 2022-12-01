@@ -1,3 +1,5 @@
+package jogoCartas;
+
 public class CartaDeAtaqueEspecial extends CartaDeAtaque{
     private String efeito;
 

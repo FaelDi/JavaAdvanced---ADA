@@ -1,3 +1,5 @@
+package jogoCartas;
+
 import java.util.List;
 
 public class CartasTabuleiro {

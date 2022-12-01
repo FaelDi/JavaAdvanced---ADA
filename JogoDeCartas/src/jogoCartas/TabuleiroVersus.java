@@ -1,3 +1,4 @@
+package jogoCartas;
 
 public class TabuleiroVersus extends Tabuleiro {
 

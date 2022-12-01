@@ -1,3 +1,5 @@
+package jogoCartas;
+
 public class CartaDeAtaque extends Carta{
     private Integer poder;
     private Integer resistencia;
